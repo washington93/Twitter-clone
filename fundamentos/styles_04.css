@@ -1,0 +1,31 @@
+html,
+body,
+#app{
+  height: 100%;
+  margin: 0;
+}
+
+#app{
+  display: flex;
+}
+
+.box{
+  width: 150px;
+  height: 60px;
+  margin: 5px;
+}
+
+.red{
+  background: #f00;
+  order: 1;
+}
+
+.green{
+  background: #0f0;
+  order: 3;
+}
+
+.blue{
+  background: #00f;
+  order: 2;
+}

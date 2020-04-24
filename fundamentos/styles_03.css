@@ -1,0 +1,21 @@
+html,
+body,
+#app{
+  height: 100%;
+  margin: 0;
+}
+
+#app{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.box{
+  width: 200px;
+  height: 60px;
+  background: red;
+  margin: 5px;
+}
