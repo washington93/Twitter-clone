@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Twitter Template</title>
+  <title>Twitter Clone</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -82,10 +82,82 @@
       </div>
     </aside>
     <section class="timeline">
-      timeline
+      <nav>
+        <a href="" class="active">Tweets</a>
+        <a href="">Tweets and replies</a>
+        <a href="">Medias</a>
+      </nav>
+      
+      <ul class="tweets">
+        <li>
+          <img src="images/avatar01.svg" alt="avatar">
+          <div class="info">
+            <strong>Benoît Vrins <span>@Exibit</span></strong>
+            <p>Ganho de performance! App do Xbox troca Electron por React no Windows 10</p>
+            <div class="actions">
+              <a href=""><img src="images/comment.svg" alt="comments"/> 3</a>
+              <a href=""><img src="images/retweet.svg" alt="retweet"/> 4</a>
+              <a href=""><img src="images/like.svg" alt="like"/> 6</a>
+              <a href=""><img src="images/send.svg" alt="send"/> 6</a>
+            </div>
+          </div>
+        </li>
+      </ul>
     </section>
     <aside class="widgets">
-      widgets
+      <div class="widget follow">
+        <div class="title">
+          <strong>Who to follow</strong>
+          <a href="">Refresh</a>
+          <a href="">View all</a>
+        </div>
+        <ul>
+          <li>
+            <div class="profile">
+              <img src="images/avatar07.svg" alt="avatar">
+              <div class="info">
+                <strong>Spade <span>@spade_be</span></strong>
+                <button>Follow</button>
+              </div>
+            </div>
+            <a href="">x</a>
+          </li>
+          <li>
+            <div class="profile">
+              <img src="images/avatar02.svg" alt="avatar">
+              <div class="info">
+                <strong>Spade <span>@spade_be</span></strong>
+                <button>Follow</button>
+              </div>
+            </div>
+            <a href="">x</a>
+          </li>
+          <li>
+            <div class="profile">
+              <img src="images/avatar03.svg" alt="avatar">
+              <div class="info">
+                <strong>Spade <span>@spade_be</span></strong>
+                <button>Follow</button>
+              </div>
+            </div>
+            <a href="">x</a>
+          </li>
+          <li>
+            <div class="profile">
+              <img src="images/avatar05.svg" alt="avatar">
+              <div class="info">
+                <strong>Spade <span>@spade_be</span></strong>
+                <button>Follow</button>
+              </div>
+            </div>
+            <a href="">x</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- <div class="widget trends">
+
+      </div> -->
     </aside>
   </div>
   </body>
