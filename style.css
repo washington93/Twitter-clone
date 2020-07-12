@@ -343,6 +343,7 @@ div.wrapper-content .timeline ul.tweets li .info strong span{
 
 div.wrapper-content .timeline ul.tweets li .actions{
   display: flex;
+  margin-top: 20px;
 }
 
 div.wrapper-content .timeline ul.tweets li .actions a{
